@@ -20,6 +20,8 @@ public class MultipleDelegate : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             currDelegate(Color.blue);
+
+            
         }
 
     }

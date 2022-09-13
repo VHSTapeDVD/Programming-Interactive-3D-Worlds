@@ -21,6 +21,7 @@ public class Book_Mono : MonoBehaviour
     public void showBook()
     {
         Debug.Log($"The book {bookName}, by {author}, has {bookPages} pages and costs {price}");
+        Vector3 test =  transform.position;
     }
 
 }
