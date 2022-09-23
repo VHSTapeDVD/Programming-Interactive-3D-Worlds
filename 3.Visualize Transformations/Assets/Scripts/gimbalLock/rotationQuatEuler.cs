@@ -38,6 +38,7 @@ public class rotationQuatEuler : MonoBehaviour
             {
                 //transform.eulerAngles += rotationPerAngle * Time.deltaTime;
                 transform.localEulerAngles += rotationPerAngle * Time.deltaTime;
+                
             }
         }
         else
