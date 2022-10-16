@@ -34,7 +34,7 @@ public class RaycastVisualize : MonoBehaviour
 
         //Vector3 direction = transform.TransformDirection(Vector3.forward);
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, direction, out hit, Mathf.Infinity))
+        if (Physics.Raycast(transform.position, direction, out hit, 100))
         {
             Debug.DrawRay(transform.position, direction * hit.distance, Color.yellow);
 
