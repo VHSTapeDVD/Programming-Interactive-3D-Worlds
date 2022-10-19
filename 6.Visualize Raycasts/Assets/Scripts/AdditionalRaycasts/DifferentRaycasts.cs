@@ -41,11 +41,11 @@ public class DifferentRaycasts : MonoBehaviour
     void Update()
     {
         ////Raycast Sphere and visualizer combo
-        //SpherecastDemo();
-        //VisualizeSpherecast();
+        SpherecastDemo();
+        VisualizeSpherecast();
 
         // Raycast against all demo
-        RaycastAllDemo();
+        // RaycastAllDemo();
 
         ////Overlap sphere demo
         //OverlapSphereDemo();

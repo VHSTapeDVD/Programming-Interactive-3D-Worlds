@@ -508,7 +508,9 @@ GameObject:
   - component: {fileID: 1211636173}
   - component: {fileID: 1211636172}
   - component: {fileID: 1211636171}
+  - component: {fileID: 1211636177}
   - component: {fileID: 1211636175}
+  - component: {fileID: 1211636178}
   - component: {fileID: 1211636176}
   m_Layer: 0
   m_Name: casterObj
@@ -526,7 +528,7 @@ BoxCollider:
   m_GameObject: {fileID: 1211636170}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -602,7 +604,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211636170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb969680134b2bf41aea677fbc76d95a, type: 3}
   m_Name: 
@@ -707,6 +709,34 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1211636177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211636170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7569d6f5373dd44a5cbfe1ff2c67b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 100
+  reticlePrefab: {fileID: 1906048123042760377, guid: c82d1a17d114f5c42805353520da7319, type: 3}
+--- !u!114 &1211636178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211636170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5e7bb91d695464a8b334ac1fc52707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  reticlePrefab: {fileID: 2408573014312729638, guid: 50356a94ef6e2da4fbc999962934ac25, type: 3}
 --- !u!1 &1499212999
 GameObject:
   m_ObjectHideFlags: 0
